@@ -1,0 +1,72 @@
+:root{
+    --font: "Atkinson Hyperlegible Next";
+}
+.container{
+    width: 1440px;
+    outline: 1px solid red;
+    margin: 0 auto;
+}
+.yellow-up{
+    width: 88.32039982095296;
+    height: 85.8441273565932;
+}
+.main {
+    display: block;
+    padding-top: 179px;
+    padding-left: 150px;
+}
+.title {
+    width: 563px;
+    height: 58px;
+    font-family: var(--font);
+    font-weight: 400px;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.name {
+    width: 557px;
+    height: 93px;
+    font-family: var(--font);
+    font-weight: 400px;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.email {
+    width: 557px;
+    height: 93px;
+    font-family: var(--font);
+    font-weight: 400px;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.message {
+    width: 557px;
+    height: 189px;
+    font-family: var(--font);
+    font-weight: 400px;
+    font-size: 18px;
+    margin-bottom: 23px;
+}
+.btn {
+    width: 221px;
+    height: 73px;
+    font-family: var(--font);
+    font-weight: 400px;
+    font-size: 18px;
+    background-color: #FAD34F;
+    color: white;
+    border: none;
+    border-radius: 500px;
+    padding: 27px 52px;
+    margin-bottom: 174px;
+}
+
+/* footer */
+
+.socials {
+    width: 127px;
+    height: 16px;
+    margin-top: 79px;
+    margin-bottom: 105px;
+    margin-left: 340px;
+}
