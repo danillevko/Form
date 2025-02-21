@@ -19,10 +19,13 @@
     <div class="container">
         <main class="main">
             <h1 class="title">Reach out to us!</h1>
-            <input type="text" placeholder="Your name*" class="name"><br>
-            <input type="text" placeholder="Your e-mail*" class="email"><br>
-            <input type="text" placeholder="Your message*" class="message"><br>
-            <button type="button" class="btn">Send message</button>
+            <form>
+                <input type="text" placeholder="Your name*" class="name" required minlength="3"><br>
+                <input type="email" placeholder="Your e-mail*" class="email" required><br>
+                <textarea name="message" id="message" placeholder="Your message*"></textarea><br>
+                <button type="submit" class="btn">Send message</button>
+            </form>
+            <img src="./img/map.png" alt="" class="map">
         </main>
     </div>
     <footer class="footer">
@@ -32,6 +35,9 @@
                 <use href="./img/symbol-defs.svg#socials-icon"></use>
             </svg> -->
             <img src="./img/Group 5041.png" alt="" class="socials">
+            <svg class="pink-big">
+                <use href="./img/symbol-defs.svg#icon-pink-big"></use>
+            </svg>
         </div>
     </footer>
 </body>

@@ -3,7 +3,7 @@
 }
 .container{
     width: 1440px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin: 0 auto;
 }
 .yellow-up{
@@ -39,13 +39,15 @@
     font-size: 18px;
     margin-bottom: 8px;
 }
-.message {
+#message {
     width: 557px;
     height: 189px;
     font-family: var(--font);
     font-weight: 400px;
     font-size: 18px;
     margin-bottom: 23px;
+    min-height: 189px;
+    min-width: 557px;
 }
 .btn {
     width: 221px;
@@ -60,6 +62,18 @@
     padding: 27px 52px;
     margin-bottom: 174px;
 }
+.btn:hover{
+    cursor: -webkit-grabbing;
+}
+.map{
+    width: 970px;
+    height: 970px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    top: -28px;
+    right: 324px;
+}
 
 /* footer */
 
@@ -69,4 +83,10 @@
     margin-top: 79px;
     margin-bottom: 105px;
     margin-left: 340px;
+}
+.pink-big{
+    width: 213.9999951978331px;
+    height: 207.99999533247328px;
+    top: 890px;
+    left: 173.12px;
 }
