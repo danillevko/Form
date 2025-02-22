@@ -24,30 +24,37 @@
     margin-bottom: 32px;
 }
 .name {
-    width: 557px;
+    width: 527px;
     height: 93px;
     font-family: var(--font);
     font-weight: 400px;
     font-size: 18px;
     margin-bottom: 8px;
+    padding-left: 46px;
+    border-radius: 10px;
 }
 .email {
-    width: 557px;
+    width: 527px;
     height: 93px;
     font-family: var(--font);
     font-weight: 400px;
     font-size: 18px;
     margin-bottom: 8px;
+    padding-left: 46px;
+    border-radius: 10px;
 }
 #message {
-    width: 557px;
+    width: 527px;
     height: 189px;
     font-family: var(--font);
     font-weight: 400px;
     font-size: 18px;
     margin-bottom: 23px;
     min-height: 189px;
-    min-width: 557px;
+    min-width: 527px;
+    padding-left: 46px;
+    padding-top: 31px;
+    border-radius: 10px;
 }
 .btn {
     width: 221px;
@@ -64,6 +71,7 @@
 }
 .btn:hover{
     cursor: -webkit-grabbing;
+    background-color: #bea03c;
 }
 .map{
     width: 970px;
@@ -83,6 +91,12 @@
     margin-top: 79px;
     margin-bottom: 105px;
     margin-left: 340px;
+    border-radius: 5px;
+}
+.socials:hover{
+    cursor: pointer;
+    background-color: rgb(211, 211, 211);
+
 }
 .pink-big{
     width: 213.9999951978331px;
